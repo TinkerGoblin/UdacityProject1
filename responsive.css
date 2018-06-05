@@ -1,0 +1,75 @@
+/**********
+Mobile
+**********/
+@media screen and (max-width: 434px) {
+   .head_icon {
+      margin: 12px 5px 10px 0;
+      float: left;
+      width: 10%;
+   }
+   .head_title {
+      float: left;
+   }
+   .head_name {
+      font-size: 1.5em;
+   }
+   .head_desc {
+      font-size: .75em;
+      margin-bottom: 10px;
+   }
+   .ft_title {
+      margin: 0 auto;
+      width: 100%;
+      text-align: center;
+      font-size: 1.5em;
+   }
+   hr {
+      height: 2px;
+   }
+   .feat_work {
+      flex-flow: column;
+   }
+   .feat_work p {
+      font-size: 1.35em;
+   }
+   .feat_work div {
+      margin: 20px auto 5px;
+   }
+}
+/**********
+Tablet/Medium
+**********/
+@media screen and (min-width: 420px) and (max-width: 849px) {
+   .ft_title  {
+      text-align: center;
+   }
+   .feat_work div {
+      flex: 1 33.3333%;
+      padding: 10px 0;
+      margin: 10px;
+   }
+   .feat_work {
+      flex-flow: row wrap;
+   }
+   .feat_work p {
+      font-size: 4.5vw;
+   }
+}
+
+/**********
+Desktop/Large
+**********/
+@media screen and (min-width: 850px) {
+   body {
+      max-width: 900px;
+      margin: 0 auto;
+      height: 100vh;
+   }
+   .cat{
+      order: 1;
+      margin: 0 25px;
+   }
+   .feat_work a {
+      font-size: .85em;
+   }
+}

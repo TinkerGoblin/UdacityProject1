@@ -1,0 +1,124 @@
+/**********
+GENERAL
+**********/
+* {
+   box-sizing: border-box;
+}
+body {
+   display: flex;
+   flex-wrap: wrap;
+   font: normal 300 1.25em/1.15em 'Work Sans', 'Source Sans Pro', sans-serif;
+   /* background-color: rgb(211, 221, 233); */
+   max-width: 100%;
+}
+
+/**********
+Header/Nav
+**********/
+
+header {
+   float: left;
+   margin: 0 0 15px 0;
+   padding: 5px 0 0 0;
+   width: 100%;
+}
+.head_icon {
+   float: left;
+   max-width: 20%;
+   min-width: 36px;
+   margin: 27px auto;
+   color: #02b3e4;
+}
+.head_title {
+   float: left;
+   text-align: right;
+   width: 100%;
+}
+.head_name {
+   color: #2d3c49;
+   font: normal 300 2.45em/.95em 'Work Sans';
+   margin: 20px auto 10px;
+}
+.head_desc {
+   font: normal 600 1em/1em 'Work Sans';
+   margin: 5px auto 20px;
+}
+hr {
+   background-color: #7d97ad;
+   border: 0;
+   height: 4px;
+   width: 100%;
+}
+
+/**********
+Landing Pad
+**********/
+.basket_cat {
+   width: 100%;
+   margin: 0 auto 10px;
+}
+.feat_work {
+   width: 100%;
+   float: left;
+   margin: 0 auto 8px;
+}
+.ft_title {
+   font: normal 400 1.75em/1em 'Source Sans Pro';
+   color: #7d97ad;
+   margin: 25px auto 10px 5px;
+}
+
+/**********
+Portfolio/Gallery
+**********/
+.feat_work {
+   display: -webkit-box;
+   display: -moz-box;
+   display: -ms-flexbox;
+   display: -webkit-flex;
+   display: flex;
+}
+.feat_work img {
+   width: 100%;
+}
+.cafe {
+   order: 0;
+}
+.cat{
+   order: 1;
+}
+.roaster{
+   order: 2;
+}
+.feat_work div {
+   flex: 33.3333%;
+   text-align: center;
+}
+.feat_work p {
+   font: normal 400 1.75em/.85em 'Source Sans Pro';
+   text-transform: uppercase;
+   margin-top: 8px;
+   margin-bottom: 8px;
+   color: #2d3c49;
+}
+.feat_work a{
+   font: normal 400 .75em/.5em 'Source Sans Pro';
+   text-decoration: none;
+   color: #1b2229;
+}
+/**********
+Footer
+**********/
+footer {
+   width: 100%;
+}
+a {
+   color: rgba(128, 140, 173, 0.9);
+}
+.credits {
+   font: normal 300 .65em/1em serif;
+   text-align: center;
+   color: rgba(184, 160, 177, 0.8);
+   width: 100%;
+   margin: 5% auto 5px;
+}
